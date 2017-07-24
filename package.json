@@ -1,0 +1,32 @@
+{
+  "name": "imdb-id",
+  "version": "1.0.0",
+  "description": "Get IMDB ID from Movie Title",
+  "main": "imdb-id.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ebouther/imdb-id.git"
+  },
+  "keywords": [
+    "imdb",
+    "id",
+    "movie",
+    "name",
+    "title",
+    "search",
+    "scrape"
+  ],
+  "author": "ebouther",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ebouther/imdb-id/issues"
+  },
+  "homepage": "https://github.com/ebouther/imdb-id#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "request": "^2.81.0"
+  }
+}
