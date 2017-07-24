@@ -25,3 +25,5 @@ function imdbId(title, cb) {
       return cb("Movie not found", null);
     });
 }
+
+module.exports = imdbId;
