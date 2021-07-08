@@ -1,3 +1,7 @@
+<div>
+	<a href="https://www.npmjs.com/package/imdb-id"><img src="https://img.shields.io/npm/v/imdb-id" alt="Current Version"></a>
+</div>
+
 # imdb-id
 Get IMDB ID from Movie Title  
 
@@ -10,11 +14,14 @@ npm:  ```npm install --save imdb-id```
 
 ## Loading the module:
 ```const imdbId = require('../index.js');```
-
+  
+  
 ## Usage:
 The function takes a movie title as parameter:  
+  
 ```await imdbId("H2G2")```
-
+   
+ 
 ## Example:
 ```
 const imdbId = require('../index.js');
