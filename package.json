@@ -1,6 +1,6 @@
 {
   "name": "imdb-id",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Get IMDB ID from Movie Title",
   "main": "index.js",
   "scripts": {
