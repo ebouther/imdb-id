@@ -1,15 +1,31 @@
 # imdb-id
-Get IMDB ID from Movie Title
+Get IMDB ID from Movie Title  
 
-# Usage:
-` npm install --save imdb-id `
+## Installation:
+Current stable release: `2.x`  
+  
+yarn:  ```yarn add imdb-id```  
+npm:  ```npm install --save imdb-id```
+
+
+## Loading the module:
+```const imdbId = require('../index.js');```
+
+## Usage:
+The function takes a movie title as parameter:  
+```await imdbId("H2G2")```
+
+## Example:
 ```
-var imdbId = require('imdb-id');
+const imdbId = require('../index.js');
 
-var title = "H2G2";
-imdbId(title, function(err, imdb_id) {
-  if (!err) {
-    console.log(title + "  ID : " + imdb_id);
+(async () =>  {
+  const movieTitle = 'H2G2'
+  try {
+    const id = await imdbId(movieTitle);
+    console.log(`The IMDB Id of ${movieTitle} is ${id}`)
+  } catch (e) {
+    console.error('Error :', e)
   }
-});
-```
+})();
+```  
